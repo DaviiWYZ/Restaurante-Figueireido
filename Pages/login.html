@@ -20,27 +20,29 @@
                 <a href="cursos.html">Cursos</a>
                 <a href="contato.html">Contato</a>
                 <a href="login.html">Logar</a>
+                <a href="Cadastro.html">Cadastrar</a>
             </nav>
 
      </header>
 
      <main>
-
-       <section id="CotainerFormLogin">
-        <h1>Login</h1>
-        <p>Acesse sua conta no Figuereido</p>
-            <form id="formLogin">
-                 <label for="emailLogin">E-mail</label>
-                 <input id="emailLogin" type="email" required>
-                 <br>
-                 <label for="senhaLogin">Senha</label>
-                 <input id="senhaLogin" type="password" required>
-                 <botton type="submit">Entrar</botton>
-            </form>
-          
-       </section>     
-
-     </main>
+            <section aria-labelledby="titulo-login" id="Conteiner-Login">
+                <h1 id="titulo-login">Login - EduTech</h1>
+                <p>Acesse sua conta (Interface Demonstrativa)</p>
+                <form id="formLogin" onsubmit="return false">
+                <br>
+                    <label for="emailLogin">Email : </label>
+                    <input name="email" id="emailLogin" type="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+                <br>
+                    <label for="senhaLogin">Senha :</label>
+                    <input id="senhaLogin" name="senha" type="password" autocomplete="current-password" placeholder="Digite sua senha" required>
+                <br>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Ainda não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>
+                <p>Está página ainda não realizará login</p>
+            </section>
+        </main>
 
       <!--CONTEUDO DA PAGINA DO SITE-->
 
