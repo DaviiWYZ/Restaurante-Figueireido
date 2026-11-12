@@ -127,3 +127,45 @@ footer a {
     text-align: center;
 }
 
+.valores-lista {
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+.cardapio {
+    padding:15px;
+    margin:15px 0;
+    border:1px solid gray;
+    border-radius: 8px;
+}
+
+.contato {
+    padding: 15px; 
+    margin: 12px 0; 
+    border: 1px solid #ddd; 
+    border-radius: 7px;
+}
+
+input:focus , textarea:focus {
+    outline: 1px solid #f2d9bf; 
+    outline-offset: 1px;
+}
+
+button {
+    background-color: #3f270d;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
