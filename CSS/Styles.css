@@ -127,8 +127,6 @@ footer a {
     text-align: center;
 }
 
-
-
 input:focus , textarea:focus {
     outline: 1px solid #f2d9bf; 
     outline-offset: 1px;
