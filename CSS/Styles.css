@@ -126,21 +126,3 @@ footer a {
     margin: 0 auto;
     text-align: center;
 }
-
-.valores-lista li {
-    padding: 6px 0;
-    font-size: 16px;
-}
-
-.cardapio {
-    padding: 15px;
-    margin: 15px 0;
-    border: 1px  solid gray;
-    border-radius: 8px;
-}
-
-.cardapio img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
