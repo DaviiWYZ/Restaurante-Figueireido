@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: black;
+    background-color: #f2d9bf;
+}
+
+h1, h2, h3 {
+    color: #3f270d;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #3f270d ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo spam {
+    color: #3f270d;
+    text-decoration: none;
+}
+
+header {
+    background-color: #bf915a ;
+    color: white;
+    padding: 20px 0;
+}
+
+nav.menu {
+    text-align: center;
+    margin-top: 10px
+}
+
+nav.menu a {
+    color:#3f270d;
+    text-decoration: none;
+    margin: 0, 15px;
+    font-weight: bold;
+}
+
+nav.menu a:hover {
+    color:#3f270d;
+}
+
+.hero {
+    background-color:#f2d9bf;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color:#3f270d
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primario {
+    display: inline-block;
+    background-color:#bf915a;
+    color:#3f270d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-secundario {
+    display: inline-block;
+    background-color:#f2d9bf;
+    color:#3f270d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-primario a:hover , .btn-secundario a:hover {
+    opacity: 0.8;
+}
+
+.destaque {
+    padding: 30px 20px;
+}
+
+.card {
+    background-color:#f2d9bf;
+    padding: 20px;
+    margin: 12px 0;
+    border: 1px solid gray;
+    border-radius: 8px
+}
+
+footer {
+    background-color:#bf915a;
+    color:#3f270d;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer a {
+    color:#3f270d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sobre {
+    padding: 30px 20px;
+    text-align:center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.valores-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.valores-lista li {
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+.cardapio {
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px  solid gray;
+    border-radius: 8px;
+}
+
+.cardapio img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
