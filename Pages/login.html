@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- Especifica o tipo de Documento-->
+<html lang="pt-BR">
+    <head>
+        <title>Figuereido</title>
+        <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
+        <meta name="viewport" content="width=device,width,initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/Styles.css">
+    </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
+
+    <body>
+     <header class="topo">
+            <div class="logo">
+                <a href="index.html" >Restaurante<span> Figueireido</span></a>
+                </div>
+            
+            <nav class="menu">
+                <a href="../index.html">Inicio</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="contato.html">Contato</a>
+                <a href="login.html">Logar</a>
+                <a href="Cadastro.html">Cadastrar</a>
+            </nav>
+
+     </header>
+
+     <main>
+            <section class="login" aria-labelledby="titulo-login" id="Conteiner-Login">
+                <h1 id="titulo-login">Login - Figuereido</h1>
+                <p>Acesse sua conta</p>
+                <form id="formLogin" onsubmit="return false">
+                <br>
+                    <label for="emailLogin">Email : </label>
+                    <input name="email" id="emailLogin" type="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+                <br>
+                    <label for="senhaLogin">Senha :</label>
+                    <input id="senhaLogin" name="senha" type="password" autocomplete="current-password" placeholder="Digite sua senha" required>
+                <br>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Ainda não tem uma conta? <a href="Cadastro.html">Cadastre-se</a></p>
+            </section>
+        </main>
+
+      <!--CONTEUDO DA PAGINA DO SITE-->
+
+     <footer class="rodape"> <!--RODAPE DO CORPO DO SITE-->
+        <p>©2026 Figuereido. Todos os direitos reservados
+        <p><a href="contato.html">Entre em contato conosco</a></p>
+     </footer>
+
+    </body> <!--CORPO DO SITE - CONTEUDO VISIVEL PARA TODOS-->
+       
+</html>

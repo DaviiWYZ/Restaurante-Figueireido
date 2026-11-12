@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurante Figuereido</title>
+        <link rel="stylesheet" href="../CSS/Styles.css">
+
+    </head>
+
+    <body>
+
+         <header class="topo">
+
+            <div class="logo">
+
+                <a href="../index.html">Restaurante<spam> Figuereido</spam></a>
+            </div>
+
+            <nav class="menu"> 
+
+                <a href="../index.html">Início</a>
+                <a href="cardapio.html">Cardápio</a>
+                <a href="sobre.html">Sobre</a>  
+                <a href="contato.html">Contato</a>
+                <a href="login.html">Logar</a>
+                <a href="Cadastro.html">Cadastrar</a>
+            </nav>
+
+        </header>
+
+ <main>
+            <section class="cadastro" aria-labelledby="titulo-cadastro" id="Conteiner-Cadastro">
+                <h1 id="titulo-cadastro">Cadastro - Figueireido</h1>
+                <p>Crie sua conta</p>
+                <form id="formCadastro" onsubmit="return false">
+                <br>
+                    <label for="nomeCadastro">Nome :</label>
+                    <input id="nomeCadastro" name="nome" type="text" autocomplete="name" placeholder="Digite seu nome completo" required>
+                <br>
+                    <label for="emailCadastro">Email :</label>
+                    <input id="emailCadastro" name="email" type="email" autocomplete="email" placeholder="nome@exemplo.com" required>
+                <br>
+                    <label for="senhaCadastro" name="senha">Senha :</label>
+                    <input id="senhaCadastro" name="senha" type="password" minlength="8" autocomplete="new-password" placeholder="Digite sua senha" required>
+                <br>
+                    <label for="confirmarSenha" name="confirmarSenha">Confirmar sua senha :</label>
+                    <input id="confirmarSenha" name="confirmarSenha" type="password" minlength="8" placeholder="Confirme sua senha" autocomplete="new-password" required>
+                <br>
+                    <button type="submit">Cadastrar</button>
+                </form>
+                <p>Já possui uma conta? <a href="login.html">Faça login</a></p>
+                </section>
+        </main>
+
+         <footer class="rodape">
+
+            <p>© 2026 Restaurante Figuereido. Todos os direitos reservados.</p>
+            <p><a href="Pages/contato.html">Entre em Contato</a></p>
+        </footer>
+
+
+    </body>

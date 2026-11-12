@@ -4,33 +4,58 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Restaurante Figuereido</title>
+        <link rel="stylesheet" href="../CSS/Styles.css">
 
     </head>
 
     <body>
 
-         <header>
-
-            <div>
+         <header class="topo">
+            <div class="logo">
 
                 <a href="../index.html">Restaurante<spam> Figuereido</spam></a>
             </div>
 
-            <nav> 
+            <nav class="menu"> 
 
                 <a href="../index.html">Início</a>
                 <a href="cardapio.html">Cardápio</a>
                 <a href="sobre.html">Sobre</a>  
                 <a href="contato.html">Contato</a>
+                <a href="login.html">Logar</a>
+                <a href="Cadastro.html">Cadastrar</a>
             </nav>
 
 
          </header>
+         
+         <main>  
+            <section class="contato" aria-labelledby="Titulo-Contato" id="Conteiner-Contato">
+                <h1 id="Titulo-Contato">Fale Conosco</h1>
+                <p>Tem alguma dúvida? Entre em contato conosco!</p>
+                <form id="formContato" action="#" method="get" onsubmit="return false">
+                <br>
+                    <label for="nomeContato">Nome Completo :</label>
+                    <input id="nomeContato"type="text" name="nome" type="text" required>
+                <br>
+                    <label for="emailContato">Digite seu email : </label>
+                    <input id="emailContato" type="email" name="email" placeholder="seuemail@exemplo.com" required>
+                <br>
+                    <label for="mensagemContato">Digite sua mensagem aqui : </label>
+                <br>
+                    <textarea name="mensagem" id="mensagemContato" rows="5" minlength="10" placeholder="Digite sua mensagem aqui..." required></textarea>
+                <br>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+                </section>
+                <p>Formulário Demonstrativo: a mensagem não será enviada.</p>
+            </section>
+        </main>
 
-         <footer>
+         <footer class="rodape">
 
             <p>© 2026 Restaurante Figuereido. Todos os direitos reservados.</p>
-        
+            <p><a href="Pages/contato.html">Entre em Contato</a></p>
         </footer>
 
 
