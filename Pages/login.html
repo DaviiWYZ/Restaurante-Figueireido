@@ -4,16 +4,15 @@
         <title>Figuereido</title>
         <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width=device,width,initial-scale=1.0">
-        <!--Aplica responsividade no site - adapta pra telas menores-->
+        <link rel="stylesheet" href="../CSS/Styles.css">
     </head> <!--CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
 
     <body>
-     <header>
-            <div>
-                <a href="index.html" >Restaurante<span> Figueireido</span></a>
+     <header class="topo">
+            <div class="logo">
+                <a href="../index.html">Restaurante<span> Figuereido</span></a>
                 </div>
-            
-            <nav>
+            <nav class="menu">
                 <a href="../index.html">Inicio</a>
                 <a href="cardapio.html">Cardápio</a>
                 <a href="sobre.html">Sobre</a>
@@ -25,7 +24,7 @@
      </header>
 
      <main>
-            <section aria-labelledby="titulo-login" id="Conteiner-Login">
+            <section class="login" aria-labelledby="titulo-login" id="Conteiner-Login">
                 <h1 id="titulo-login">Login - Figuereido</h1>
                 <p>Acesse sua conta</p>
                 <form id="formLogin" onsubmit="return false">
@@ -44,7 +43,7 @@
 
       <!--CONTEUDO DA PAGINA DO SITE-->
 
-     <footer> <!--RODAPE DO CORPO DO SITE-->
+     <footer class="rodape"> <!--RODAPE DO CORPO DO SITE-->
         <p>©2026 Figuereido. Todos os direitos reservados
         <p><a href="contato.html">Entre em contato conosco</a></p>
      </footer>
