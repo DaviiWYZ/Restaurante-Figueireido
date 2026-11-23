@@ -16,3 +16,21 @@ let carrinho = [];
 
 // Total do pedido
 let totalPedido = 0;
+
+// Adicionar produto ao carrinho
+function adicionarCarrinho(nomeProduto) {
+    let produto = produtos.find(item => item.nome === nomeProduto);
+
+    if (!produto) {
+        console.log("Produto não encontrado!");
+        return;
+    }
+
+    carrinho.push({
+        nome: produto.nome,
+        preco: produto.preco,
+        quantidade: 1
+    });
+
+    console.log(nomeProduto + "adicionado ao carrinho!");
+}
