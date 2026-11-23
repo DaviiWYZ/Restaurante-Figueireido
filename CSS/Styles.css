@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -17,47 +18,45 @@ p {
 
 .logo a {
     text-decoration: none;
-    color: #3f270d ;
+    color: #3f270d;
     font-size: 24px;
     font-weight: bold;
 }
 
-.logo spam {
+.logo span {
     color: #3f270d;
-    text-decoration: none;
 }
 
 header {
-    background-color: #bf915a ;
+    background-color: #bf915a;
     color: white;
     padding: 20px 0;
 }
 
 nav.menu {
     text-align: center;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 nav.menu a {
-    color:#3f270d;
+    color: #3f270d;
     text-decoration: none;
-    margin: 0, 15px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
 nav.menu a:hover {
-    color:#3f270d;
+    color: white;
 }
 
 .hero {
-    background-color:#f2d9bf;
+    background-color: #f2d9bf;
     text-align: center;
     padding: 60px 20px;
 }
 
 .hero h1 {
     font-size: 36px;
-    color:#3f270d
 }
 
 .hero p {
@@ -65,25 +64,18 @@ nav.menu a:hover {
     margin-bottom: 20px;
 }
 
-.btn-primario {
-    display: inline-block;
-    background-color:#bf915a;
-    color:#3f270d;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
+.btn-primario,
 .btn-secundario {
     display: inline-block;
-    background-color:#f2d9bf;
-    color:#3f270d;
+    background-color: #bf915a;
+    color: #3f270d;
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
 }
 
-.btn-primario a:hover , .btn-secundario a:hover {
+.btn-primario:hover,
+.btn-secundario:hover {
     opacity: 0.8;
 }
 
@@ -92,31 +84,30 @@ nav.menu a:hover {
 }
 
 .card {
-    background-color:#f2d9bf;
+    background-color: #f2d9bf;
     padding: 20px;
     margin: 12px 0;
     border: 1px solid gray;
-    border-radius: 8px
+    border-radius: 8px;
 }
 
 footer {
-    background-color:#bf915a;
-    color:#3f270d;
+    background-color: #bf915a;
+    color: #3f270d;
     padding: 20px;
     font-size: 14px;
     text-align: center;
 }
 
 footer a {
-    color:#3f270d;
+    color: #3f270d;
     text-decoration: none;
     font-weight: bold;
 }
 
 .sobre {
     padding: 30px 20px;
-    text-align:center;
-    align-items: center;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -125,21 +116,54 @@ footer a {
     padding: 0;
     margin: 0 auto;
     text-align: center;
-}   
+}
 
 .contato {
-    padding: 15px; 
-    margin: 12px 0; 
-    border: 1px solid #ddd; 
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
     border-radius: 7px;
 }
 
 input, textarea {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px; 
+    font-size: 16px;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 8px;
     max-width: 100%;
     box-sizing: border-box;
 }
+
+/* Grade do cardápio */
+
+.grid-cardapio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-cardapio article {
+    background-color: #fff5e9;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #bf915a;
+}
+
+.grid-cardapio img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Adaptação para celulares */
+
+@media (max-width: 700px) {
+    .grid-cardapio {
+        grid-template-columns: 1fr;
+    }
+}
+
