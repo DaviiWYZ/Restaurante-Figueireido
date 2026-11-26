@@ -1,97 +1,101 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurante Figuereido</title>
-        <link rel="stylesheet" href="../css/Style.css">
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio | Restaurante Figueireido</title>
+    <link rel="stylesheet" href="../CSS/Styles.css">
+    <script src="../JS/function.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <a class="logo" href="../index.html">Restaurante <span>Figueireido</span></a>
+        <nav class="menu" aria-label="Navegação principal">
+            <a href="../index.html">Início</a>
+            <a class="ativo" href="cardapio.html">Cardápio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html">Login</a>
+            <a href="Cadastro.html">Cadastro</a>
+        </nav>
+    </header>
 
-    </head>
+    <main class="pagina container">
+        <h1 class="titulo-pagina">Nosso cardápio</h1>
+        <p class="subtitulo-pagina">Confira nossas opções e adicione seus pratos favoritos ao carrinho.</p>
 
-    <body>
-
-         <header class="topo">
-            <div class="logo">
-                <a href="../index.html">Restaurante<spam> Figuereido</spam></a>
+        <section class="secao-cardapio">
+            <h2>Pratos principais</h2>
+            <div class="grid-cardapio">
+                <article>
+                    <h3>Paillard de filet</h3>
+                    <img src="../Imagens/imagen1.jpg" alt="Prato de Paillard de filet">
+                    <p>Filé bovino preparado em corte fino, acompanhado de uma apresentação especial.</p>
+                    <span class="preco">R$ 68,00</span>
+                    <button type="button" data-adicionar="Paillard de filet">Adicionar ao carrinho</button>
+                </article>
+                <article>
+                    <h3>Risoto de camarão</h3>
+                    <img src="../Imagens/imagen2.jpg" alt="Risoto de camarão">
+                    <p>Arroz cremoso preparado lentamente com camarões e caldo aromático.</p>
+                    <span class="preco">R$ 48,00</span>
+                    <button type="button" data-adicionar="Risoto de camarão">Adicionar ao carrinho</button>
+                </article>
+                <article>
+                    <h3>Steak tartare</h3>
+                    <img src="../Imagens/imagen3.jpg" alt="Apresentação de steak tartare">
+                    <p>Uma receita clássica de inspiração francesa, com temperos selecionados.</p>
+                    <span class="preco">R$ 82,00</span>
+                    <button type="button" data-adicionar="Steak tartare">Adicionar ao carrinho</button>
+                </article>
             </div>
+        </section>
 
-            <nav class="menu"> 
-
-                <a href="../index.html">Início</a>
-                <a href="cardapio.html">Cardápio</a>
-                <a href="sobre.html">Sobre</a>  
-                <a href="contato.html">Contato</a>
-                <a href="login.html">Logar</a>
-                <a href="Cadastro.html">Cadastrar</a>
-            </nav>
-
-
-         </header>
-
-         <main>
-            <section class="cardapio">
-    <h2>Cardápio do Figueireido</h2>
-
-    <h3>Pratos Principais</h3>
-
-    <div class="grid-cardapio">
-                
+        <section class="secao-cardapio">
+            <h2>Sobremesas</h2>
+            <div class="grid-cardapio">
                 <article>
-                        <h3>Paillard de filet</h3>
-                        <img src="../Imagens/imagen1.jpg" alt="Macarrão com Filé" width="200" height="150">
-                        <p>É um bifé de fíle batido até ficar bem fino e largo</p>
-                        <strong>Preço:</strong> R$68.00
+                    <h3>Cheesecake</h3>
+                    <img src="../Imagens/imagen4.jpg" alt="Cheesecake com frutas">
+                    <p>Sobremesa cremosa à base de queijo, com base crocante de biscoito.</p>
+                    <span class="preco">R$ 62,00</span>
+                    <button type="button" data-adicionar="Cheesecake">Adicionar ao carrinho</button>
                 </article>
                 <article>
-                        <h3>Risoto de Camarão</h3>
-                        <img src="../Imagens/imagen2.jpg" alt="Molho branco com camarao e arroz" width="200" height="150">
-                        <p>Arroz arbóreo ou carnaroli, cozido lentamente em caldo aromático de frutos do mar e vinho branco seco</p>
-                        <strong>Preço:</strong> R$48.00
+                    <h3>Petit Gâteau</h3>
+                    <img src="../Imagens/imagen5.jpg" alt="Petit gâteau de chocolate">
+                    <p>Bolinho de chocolate com interior cremoso, servido individualmente.</p>
+                    <span class="preco">R$ 47,00</span>
+                    <button type="button" data-adicionar="Petit Gâteau">Adicionar ao carrinho</button>
                 </article>
                 <article>
-                        <h3>Steak tartare</h3>
-                        <img src="../Imagens/imagen3.jpg" alt="Carne crua de alta qualidade" width="200" height="150">
-                        <p>É um prato clássico da culinária francesa feito com carne bovina crua de alta qualidade finamente picada na ponta da faca e bem temperada.</p>
-                        <strong>Preço:</strong> R$82.00
+                    <h3>Crème brûlée</h3>
+                    <img src="../Imagens/imagen6.jpg" alt="Crème brûlée com cobertura caramelizada">
+                    <p>Creme delicado de baunilha finalizado com uma fina camada caramelizada.</p>
+                    <span class="preco">R$ 39,00</span>
+                    <button type="button" data-adicionar="Crème brûlée">Adicionar ao carrinho</button>
                 </article>
-                </div>
+            </div>
+        </section>
 
-                <h3>Sobremesas</h3>
+        <section class="carrinho" aria-labelledby="titulo-carrinho">
+            <div class="carrinho-topo">
+                <h2 id="titulo-carrinho">Seu carrinho (<span id="contadorCarrinho">0</span> itens)</h2>
+                <button type="button" id="limparCarrinho" class="botao-remover">Limpar carrinho</button>
+            </div>
+            <div id="itensCarrinho" aria-live="polite"></div>
+            <div class="total-carrinho">
+                <span>Total do pedido</span>
+                <span id="totalCarrinho">R$ 0,00</span>
+            </div>
+            <p id="mensagemCarrinho" class="mensagem" aria-live="polite"></p>
+            <p class="subtitulo-pagina">Carrinho demonstrativo: o pedido ainda não é enviado ao restaurante.</p>
+        </section>
+    </main>
 
-    
-<div class="grid-cardapio">
-
-    <article>
-        <h3>Cheesecake</h3>
-        <img src="../Imagens/imagen4.jpg" alt="Torta doce com frutas vermelhas">
-        <p>É uma sobremesa cremosa à base de queijo fresco e açúcar sobre uma base crocante de biscoitos.</p>
-        <strong>Preço:</strong> R$62,00
-    </article>
-
-    <article>
-        <h3>Petit Gâteau</h3>
-        <img src="../Imagens/imagen5.jpg" alt="Mini bolo de chocolate">
-        <p>Uma sobremesa individual composta por um bolinho quente de chocolate, com casquinha firme por fora e recheio cremoso por dentro.</p>
-        <strong>Preço:</strong> R$47,00
-    </article>
-
-    <article>
-        <h3>Crème brûlée</h3>
-        <img src="../Imagens/imagen6.jpg" alt="Creme com crosta caramelizada">
-        <p>É uma sobremesa clássica feita com creme de leite, gemas, açúcar e baunilha, finalizada com uma crosta caramelizada.</p>
-        <strong>Preço:</strong> R$39,00
-    </article>
-
-</div>
-
-            </section>
-         </main>
-
-         <footer class="rodape">
-
-            <p>© 2026 Restaurante Figuereido. Todos os direitos reservados.</p>
-             <p><a href="contato.html">Entre em Contato</a></p>
-        </footer>
-
-
-    </body>
+    <footer class="rodape">
+        <p>© 2026 Restaurante Figueireido. Todos os direitos reservados.</p>
+        <p><a href="contato.html">Entre em contato</a></p>
+    </footer>
+</body>
+</html>

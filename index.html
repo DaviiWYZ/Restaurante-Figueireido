@@ -1,62 +1,76 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurante Figuereido</title>
-        <link rel="stylesheet" href="CSS/Styles.css">
-    </head>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o Restaurante Figueireido, seu cardápio e nossas opções.">
+    <title>Restaurante Figueireido | Início</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <script src="JS/function.js" defer></script>
+</head>
+<body>
+    <header class="topo">
+        <a class="logo" href="index.html">Restaurante <span>Figueireido</span></a>
+        <nav class="menu" aria-label="Navegação principal">
+            <a class="ativo" href="index.html">Início</a>
+            <a href="Pages/cardapio.html">Cardápio</a>
+            <a href="Pages/sobre.html">Sobre</a>
+            <a href="Pages/contato.html">Contato</a>
+            <a href="Pages/login.html">Login</a>
+            <a href="Pages/Cadastro.html">Cadastro</a>
+        </nav>
+    </header>
 
-    <body>
-
-         <header class="topo">
-
-            <div class="logo">
-                <a href="../index.html">Restaurante<spam> Figuereido</spam></a>
-            </div>
-
-            <nav class="menu"> 
-                <a href="../index.html">Início</a>
-                <a href="Pages/cardapio.html">Cardápio</a>
-                <a href="Pages/sobre.html">Sobre</a>  
-                <a href="Pages/contato.html">Contato</a>
-                <a href="Pages/login.html">Logar</a>
-                <a href="Pages/Cadastro.html">Cadastrar</a>
-            </nav>
-
-
-         </header>
-
-         <main>
-            <section class="hero">
-                <div>
-                    <h1>O Melhor Restaurante de Planaltina-DF</h1>
-                    <p>Sempre Servindo nossos melhores pratos.</p>
-                    <a href="Pages/cardapio.html" class="btn-primario">Ver Nosso Cárdipio</a>
-                    <a href="Pages/sobre.html" class="btn-secundario">Fale Conosco</a>
-                <div>
-            </section>
-
-            <section class="destaques">
-             <div>
-                    <h2>Por Que Escolher o Figuereido?</h2>
-                <div>
-                <article class="card">
-                    <h3>O Melhor Tempero de Planaltina-DF.</h3>
-                    <p>Você experimenta dos melhores pratos.</p>
-                </article>
-                <article class="card">
-                    <h3>Pratos Internacionais</h3>
-                    <p>Chefs de alto nível</p>
-                </article>
-            </section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="etiqueta">Restaurante Figueireido</span>
+                <h1>Uma experiência especial a cada prato</h1>
+                <p>Sabores preparados com cuidado para tornar seu momento ainda melhor.</p>
+                <div class="hero-acoes">
+                    <a href="Pages/cardapio.html" class="btn-primario">Conheça o cardápio</a>
+                    <a href="Pages/sobre.html" class="btn-secundario">Conheça nossa história</a>
                 </div>
-             </div>
-         </main>
-         <footer class="rodape">
-            <p>© 2026 Restaurante Figuereido. Todos os direitos reservados.</p>
-            <p><a href="Pages/contato.html">Entre em Contato</a></p>
-        </footer>
+            </div>
+        </section>
 
+        <section class="secao container">
+            <div class="cabecalho-secao">
+                <span class="etiqueta">Por que escolher o Figueireido?</span>
+                <h2>Um bom momento começa à mesa</h2>
+                <p>Reunimos cuidado, sabor e um ambiente acolhedor em cada detalhe.</p>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <span class="card-icone" aria-hidden="true">✦</span>
+                    <h3>Ingredientes selecionados</h3>
+                    <p>Valorizamos ingredientes e o preparo cuidadoso de cada receita.</p>
+                </article>
+                <article class="card">
+                    <span class="card-icone" aria-hidden="true">♡</span>
+                    <h3>Feito com dedicação</h3>
+                    <p>Cada prato é preparado pensando em oferecer uma boa experiência.</p>
+                </article>
+                <article class="card">
+                    <span class="card-icone" aria-hidden="true">⌂</span>
+                    <h3>Ambiente acolhedor</h3>
+                    <p>Um espaço para aproveitar a refeição e compartilhar bons momentos.</p>
+                </article>
+            </div>
+        </section>
 
-    </body>
+        <section class="chamada container">
+            <div>
+                <span class="etiqueta">Está com fome?</span>
+                <h2>Descubra seu próximo prato favorito.</h2>
+            </div>
+            <a href="Pages/cardapio.html" class="btn-primario">Ver cardápio</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 Restaurante Figueireido. Todos os direitos reservados.</p>
+        <p><a href="Pages/contato.html">Entre em contato</a></p>
+    </footer>
+</body>
+</html>
