@@ -1,104 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante Figueireido</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="DATA/produtos.js" defer></script>
-    <script src="JS/script.js" defer></script>
+    <meta name="description" content="Conheça o Restaurante Figueireido, seu cardápio e nossas opções.">
+    <title>Restaurante Figueireido | Início</title>
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <script src="JS/function.js" defer></script>
 </head>
 <body>
-
     <header class="topo">
-        <div class="logo">
-            <h2>Figueireido</h2>
-            <span>Restaurante</span>
-        </div>
-
-        <nav class="menu">
-            <a href="index.html">Início</a>
-            <a href="PAGES/cardapio.html">Cardápio</a>
-            <a href="PAGES/sobre.html">Sobre</a>
-            <a href="PAGES/contato.html">Contato</a>
-            <a href="PAGES/login.html">Login</a>
+        <a class="logo" href="index.html">Restaurante <span>Figueireido</span></a>
+        <nav class="menu" aria-label="Navegação principal">
+            <a class="ativo" href="index.html">Início</a>
+            <a href="Pages/cardapio.html">Cardápio</a>
+            <a href="Pages/sobre.html">Sobre</a>
+            <a href="Pages/contato.html">Contato</a>
+            <a href="Pages/login.html">Login</a>
+            <a href="Pages/Cadastro.html">Cadastro</a>
         </nav>
     </header>
 
     <main>
-
-        <section class="banner">
-            <div class="banner-conteudo">
-                <span class="destaque">Uma experiência gastronômica</span>
-
-                <h1>Sabores que tornam momentos especiais.</h1>
-
-                <p>
-                    Descubra pratos preparados com dedicação,
-                    ingredientes selecionados e muito sabor.
-                </p>
-
-                <a href="PAGES/cardapio.html" class="botao">
-                    Conheça nosso cardápio
-                </a>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="etiqueta">Restaurante Figueireido</span>
+                <h1>Uma experiência especial a cada prato</h1>
+                <p>Sabores preparados com cuidado para tornar seu momento ainda melhor.</p>
+                <div class="hero-acoes">
+                    <a href="Pages/cardapio.html" class="btn-primario">Conheça o cardápio</a>
+                    <a href="Pages/sobre.html" class="btn-secundario">Conheça nossa história</a>
+                </div>
             </div>
         </section>
 
-        <section class="container secao">
-            <div class="titulo-secao">
-                <span class="destaque">Nossa essência</span>
-                <h2>Mais que uma refeição</h2>
-                <p>
-                    Um lugar para apreciar sabores, compartilhar momentos
-                    e desfrutar de uma experiência especial.
-                </p>
+        <section class="secao container">
+            <div class="cabecalho-secao">
+                <span class="etiqueta">Por que escolher o Figueireido?</span>
+                <h2>Um bom momento começa à mesa</h2>
+                <p>Reunimos cuidado, sabor e um ambiente acolhedor em cada detalhe.</p>
             </div>
-
             <div class="cards">
-
                 <article class="card">
-                    <h3>Qualidade</h3>
-                    <p>
-                        Ingredientes selecionados e atenção
-                        em cada detalhe.
-                    </p>
+                    <span class="card-icone" aria-hidden="true">✦</span>
+                    <h3>Ingredientes selecionados</h3>
+                    <p>Valorizamos ingredientes e o preparo cuidadoso de cada receita.</p>
                 </article>
-
                 <article class="card">
-                    <h3>Tradição</h3>
-                    <p>
-                        Sabores inspirados na gastronomia
-                        e no prazer de cozinhar.
-                    </p>
+                    <span class="card-icone" aria-hidden="true">♡</span>
+                    <h3>Feito com dedicação</h3>
+                    <p>Cada prato é preparado pensando em oferecer uma boa experiência.</p>
                 </article>
-
                 <article class="card">
-                    <h3>Experiência</h3>
-                    <p>
-                        Um ambiente pensado para tornar
-                        cada visita especial.
-                    </p>
+                    <span class="card-icone" aria-hidden="true">⌂</span>
+                    <h3>Ambiente acolhedor</h3>
+                    <p>Um espaço para aproveitar a refeição e compartilhar bons momentos.</p>
                 </article>
-
             </div>
         </section>
 
-        <section class="chamada">
-            <h2>Descubra nossos pratos</h2>
-            <p>Conheça as opções disponíveis em nosso cardápio.</p>
-
-            <a href="PAGES/cardapio.html" class="botao">
-                Ver cardápio
-            </a>
+        <section class="chamada container">
+            <div>
+                <span class="etiqueta">Está com fome?</span>
+                <h2>Descubra seu próximo prato favorito.</h2>
+            </div>
+            <a href="Pages/cardapio.html" class="btn-primario">Ver cardápio</a>
         </section>
-
     </main>
 
     <footer class="rodape">
-        <p>Restaurante Figueireido</p>
-        <p>© 2026 - Todos os direitos reservados.</p>
+        <p>© 2026 Restaurante Figueireido. Todos os direitos reservados.</p>
+        <p><a href="Pages/contato.html">Entre em contato</a></p>
     </footer>
-
 </body>
 </html>

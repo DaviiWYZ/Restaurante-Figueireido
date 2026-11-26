@@ -2,44 +2,38 @@
 const produtos = [
     {
         id: 1,
-        nome: "Paillard de filet",
-        preco: 68.00,
-        imagem: "../IMAGES/imagen1.jpg",
-        descricao: "Filé preparado em corte fino."
+        nome: "Hambúrguer Clássico",
+        preco: 25.00,
+        imagem: "../Imagens/imagen1.jpg"
     },
     {
         id: 2,
-        nome: "Risoto de camarão",
-        preco: 48.00,
-        imagem: "../IMAGES/imagen2.jpg",
-        descricao: "Risoto cremoso com camarões."
+        nome: "Pizza Especial",
+        preco: 40.00,
+        imagem: "../Imagens/imagen2.jpg"
     },
     {
         id: 3,
-        nome: "Steak tartare",
-        preco: 82.00,
-        imagem: "../IMAGES/imagen3.jpg",
-        descricao: "Uma receita clássica."
+        nome: "Batata Frita",
+        preco: 18.00,
+        imagem: "../Imagens/imagen3.jpg"
     },
     {
         id: 4,
-        nome: "Cheesecake",
-        preco: 62.00,
-        imagem: "../IMAGES/imagen4.jpg",
-        descricao: "Sobremesa cremosa."
+        nome: "Refrigerante",
+        preco: 8.00,
+        imagem: "../Imagens/imagen4.jpg"
     },
     {
         id: 5,
-        nome: "Petit Gâteau",
-        preco: 47.00,
-        imagem: "../IMAGES/imagen5.jpg",
-        descricao: "Bolinho de chocolate."
+        nome: "Sobremesa",
+        preco: 15.00,
+        imagem: "../Imagens/imagen5.jpg"
     },
     {
         id: 6,
-        nome: "Crème brûlée",
-        preco: 39.00,
-        imagem: "../IMAGES/imagen6.jpg",
-        descricao: "Creme de baunilha caramelizado."
+        nome: "Prato Especial",
+        preco: 35.00,
+        imagem: "../Imagens/imagen6.jpg"
     }
 ];
